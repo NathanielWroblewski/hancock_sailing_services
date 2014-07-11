@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        margin: 0;
+        background: url('./water.jpg') no-repeat;
+        background-size: 100% 200px;
+        background-position: 0% 85%;
+      }
+      a {
+        text-decoration: none;
+        color: #444;
+      }
+      a:hover {
+        color: #666;
+      }
+      #header {
+        position: relative;
+        margin: 0 auto;
+        background-color: black;
+      }
+      nav ul {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        list-style: none;
+        margin: 0 0 15px 0;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        padding-left: 40px;
+      }
+      nav ul li:first-child {
+        padding: 0;
+      }
+
+      nav ul li a {
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+      }
+
+      .content {margin-top: 40px;}
+
+      #logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 0;
+        color: white;
+
+        border: 1px solid white;
+        padding: 10px 40px;
+      }
+      #logo h4 {
+        margin-top: -20px;
+      }
+      .description {
+        margin-top: 60px;
+        color: #888;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        min-height: 350px;
+      }
+
+      .description h2 {
+        color: #444;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 5px;
+      }
+      .description p {
+        margin: 0;
+        margin-bottom: 5px;
+      }
+      .description em {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        color: #444;
+      }
+      .description ul {
+        margin: 20px 0;
+        padding: 0;
+        display: none;
+      }
+      .description ul li {
+        display: inline;
+      }
+      .description a {
+        color: #888;
+      }
+
+      #jim {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        min-height: 250px;
+        opacity: 0.7;
+      }
+      #contact-info {
+        margin-top: 200px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <img src="./jim1.jpg" id="jim"/>
+      <div class="overlay"></div>
+      <div id="logo">
+        <h1>HANCOCK</h1>
+        <h4>SAILING SERVICES</h4>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/crew">Crew</a>
+          </li>
+          <li>
+            <a href="/rates">Rates</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+      <div class="content">
+        <div class="description">
+          <h2>PROFESSIONAL SKIPPERING</h2>
+          <p>for San Francisco Bay</p>
+          <br/>
+          <div id="contact-info">
+            <p><em>510.390.5727</em></p>
+            <p>
+              <a href="mailto:hancocksailing@live.com">hancocksailing@live.com</a>
+            </p>
+          </div>
+          <ul>
+            <li>Licensed</li>
+            <li>Experienced</li>
+            <li>ASA Certified</li>
+            <li>USS Certified</li>
+            <li>Teacher</li>
+            <li>Racer</li>
+            <li>Cruiser</li>
+            <li>Writer</li>
+            <li>Engineer</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
